@@ -7,7 +7,7 @@ import java.util.function.Function;
 
 class LongestSubstringWithoutRepeatingCharactersTest {
 
-    private LongestSubstringWithoutRepeatingCharacters app = new LongestSubstringWithoutRepeatingCharacters();
+    private final LongestSubstringWithoutRepeatingCharacters app = new LongestSubstringWithoutRepeatingCharacters();
 
     @Test
     void lengthOfLongestSubstring_hashMap_test1() {

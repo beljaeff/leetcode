@@ -7,7 +7,7 @@ import java.util.function.BiFunction;
 
 class AddTwoNumbersTest {
 
-    private AddTwoNumbers app = new AddTwoNumbers();
+    private final AddTwoNumbers app = new AddTwoNumbers();
 
     @Test
     void iterativeTest1() {

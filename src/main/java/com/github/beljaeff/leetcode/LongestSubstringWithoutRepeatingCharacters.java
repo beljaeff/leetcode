@@ -12,7 +12,7 @@ class LongestSubstringWithoutRepeatingCharacters {
 
     /**
      * Find length of longest substring without repeating characters
-     * using hash map. Complexity O(n).
+     * using hash map. Complexity - O(n), where n - s.length().
      * @param s given string
      * @return length of longest substring without repeating characters
      */
@@ -47,7 +47,8 @@ class LongestSubstringWithoutRepeatingCharacters {
 
     /**
      * Find length of longest substring without repeating characters
-     * searching back to find repeating characters. Complexity O(n*m).
+     * searching back to find repeating characters.
+     * Complexity - O(n*n/2), where n - s.length().
      * @param s given string
      * @return length of longest substring without repeating characters
      */

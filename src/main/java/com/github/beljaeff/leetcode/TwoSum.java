@@ -9,7 +9,8 @@ import java.util.Map;
 class TwoSum {
 
     /**
-     * Solves Two Sum problem using hash map. Complexity O(n).
+     * Two Sum problem solution using hash map.
+     * Complexity - O(n), where n - nums.length.
      * @param nums source array
      * @param target target sum
      * @return null when no suiting numbers found or
@@ -31,7 +32,8 @@ class TwoSum {
     }
 
     /**
-     * Solves Two Sum problem using nested loop. Complexity O(n*n).
+     * Two Sum problem solution using nested loop.
+     * Complexity - O(n*n/2), where n - nums.length.
      * @param nums source array
      * @param target target sum
      * @return null when no suiting numbers found or

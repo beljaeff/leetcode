@@ -6,7 +6,7 @@ package com.github.beljaeff.leetcode;
 class AddTwoNumbers {
 
     /**
-     * Iterative solving Add Two Numbers problem.
+     * Iterative solution for Add Two Numbers problem.
      * Complexity O(n), where n == longestLength(l1, l2)
      *
      * @param l1 first list (first number representation)
@@ -46,7 +46,7 @@ class AddTwoNumbers {
     }
 
     /**
-     * Iterative solving Add Two Numbers problem.
+     * Recursive solution for Add Two Numbers problem.
      * Complexity O(n), where n == longestLength(l1, l2)
      *
      * @param l1 first list (first number representation)

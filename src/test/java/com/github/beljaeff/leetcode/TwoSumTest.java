@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 class TwoSumTest {
 
-    private TwoSum app = new TwoSum();
+    private final TwoSum app = new TwoSum();
 
     @Test
     void twoSum_hashMap_test1() {
